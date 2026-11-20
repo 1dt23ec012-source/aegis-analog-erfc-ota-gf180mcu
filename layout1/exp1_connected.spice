@@ -1,0 +1,375 @@
+* NGSPICE file created from exp1_connected.ext - technology: gf180mcuC
+
+X0 net10 net9 vdd vdd pfet_03v3 ad=20.4p pd=49.6u as=25.2p ps=73.86666u w=36u l=0.6u
+X1 y vcn net2 gnd nfet_03v3 ad=10p pd=21u as=14p ps=41.44828u w=20u l=0.6u
+X2 gnd x net5 gnd nfet_03v3 ad=14.14286p pd=38.57143u as=13.05p ps=32.52u w=22.5u l=0.6u
+X3 y vin+ net8 vdd pfet_03v3 ad=12p pd=25u as=16.8p ps=49.29231u w=24u l=0.6u
+X4 net2 vcn y gnd nfet_03v3 ad=14p pd=41.44828u as=10p ps=21u w=20u l=0.6u
+X5 net24 net12 net23 gnd nfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=25.4u w=12u l=0.6u
+X6 net8 vin+ net5 vdd pfet_03v3 ad=16.8p pd=49.29231u as=12p ps=25u w=24u l=0.6u
+X7 net1 x gnd gnd nfet_03v3 ad=8.4p pd=24.96923u as=7.54286p ps=20.57143u w=12u l=0.5u
+X8 net7 net16 vdd vdd pfet_03v3 ad=16.8p pd=49.29231u as=16.8p ps=49.24445u w=24u l=0.3u
+X9 vdd net9 net10 vdd pfet_03v3 ad=25.2p pd=73.86666u as=20.4p ps=49.6u w=36u l=0.6u
+X10 net9 net14 net5 gnd nfet_03v3 ad=15p pd=31u as=17.4p ps=43.36u w=30u l=0.6u
+X11 net6 y gnd gnd nfet_03v3 ad=13.05p pd=32.52u as=14.14286p ps=38.57143u w=22.5u l=0.6u
+X12 gnd y net6 gnd nfet_03v3 ad=14.14286p pd=38.57143u as=13.05p ps=32.52u w=22.5u l=0.6u
+X13 net8 net17 vdd vdd pfet_03v3 ad=16.8p pd=49.29231u as=16.8p ps=49.24445u w=24u l=0.3u
+X14 net15 z vcn vdd pfet_03v3 ad=2.1p pd=7.4u as=2.1p ps=7.4u w=3u l=1u
+X15 net3 vcn x gnd nfet_03v3 ad=14p pd=41.44828u as=10p ps=21u w=20u l=0.6u
+X16 net6 vin- net7 vdd pfet_03v3 ad=12p pd=25u as=16.8p ps=49.29231u w=24u l=0.6u
+X17 net24 net24 vdd vdd pfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=24.62222u w=12u l=0.6u
+X18 gnd y net6 gnd nfet_03v3 ad=14.14286p pd=38.57143u as=13.05p ps=32.52u w=22.5u l=0.6u
+X19 net8 vin+ y vdd pfet_03v3 ad=16.8p pd=49.29231u as=12p ps=25u w=24u l=0.6u
+X20 x vcn net4 gnd nfet_03v3 ad=10p pd=21u as=14p ps=41.61539u w=20u l=0.6u
+X21 net5 x gnd gnd nfet_03v3 ad=13.05p pd=32.52u as=14.14286p ps=38.57143u w=22.5u l=0.6u
+X22 gnd x net5 gnd nfet_03v3 ad=14.14286p pd=38.57143u as=13.05p ps=32.52u w=22.5u l=0.6u
+X23 net6 net22 vout gnd nfet_03v3 ad=17.4p pd=43.36u as=15p ps=31u w=30u l=0.6u
+X24 vout net11 net12 vdd pfet_03v3 ad=9p pd=19u as=10.2p ps=24.8u w=18u l=0.6u
+X25 net2 z gnd gnd nfet_03v3 ad=12.6p pd=37.30344u as=11.31429p ps=30.85714u w=18u l=0.5u
+X26 net22 net21 gnd gnd nfet_03v3 ad=4.2p pd=13.4u as=3.77143p ps=10.28571u w=6u l=0.6u
+X27 net19 vin- net8 vdd pfet_03v3 ad=25.2p pd=73.4u as=25.2p ps=73.93846u w=36u l=0.6u
+X28 net13 vcn vcp vdd pfet_03v3 ad=2.1p pd=7.4u as=2.1p ps=7.4u w=3u l=1u
+X29 net7 vin- net6 vdd pfet_03v3 ad=16.8p pd=49.29231u as=12p ps=25u w=24u l=0.6u
+X30 net18 vin+ net7 vdd pfet_03v3 ad=25.2p pd=73.4u as=25.2p ps=73.93846u w=36u l=0.6u
+X31 net10 net13 net9 vdd pfet_03v3 ad=10.2p pd=24.8u as=9p ps=19u w=18u l=0.6u
+X32 net22 vcn net20 vdd pfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=25.4u w=12u l=0.6u
+X33 net1 vcn y gnd nfet_03v3 ad=14p pd=41.61539u as=10p ps=21u w=20u l=0.6u
+X34 net14 z vcn vdd pfet_03v3 ad=2.1p pd=7.4u as=2.1p ps=7.4u w=3u l=1u
+X35 net12 net9 vdd vdd pfet_03v3 ad=20.4p pd=49.6u as=25.2p ps=73.86666u w=36u l=0.6u
+X36 net21 net6 net20 vdd pfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=25.4u w=12u l=0.6u
+X37 net4 y gnd gnd nfet_03v3 ad=8.4p pd=24.96923u as=7.54286p ps=20.57143u w=12u l=0.5u
+X38 net21 net21 gnd gnd nfet_03v3 ad=4.2p pd=13.4u as=3.77143p ps=10.28571u w=6u l=0.6u
+X39 net11 net24 vdd vdd pfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=24.62222u w=12u l=0.6u
+X40 net12 net11 vout vdd pfet_03v3 ad=10.2p pd=24.8u as=9p ps=19u w=18u l=0.6u
+X41 vout net22 net6 gnd nfet_03v3 ad=15p pd=31u as=17.4p ps=43.36u w=30u l=0.6u
+X42 net5 x gnd gnd nfet_03v3 ad=13.05p pd=32.52u as=14.14286p ps=38.57143u w=22.5u l=0.6u
+X43 net11 vcp net23 gnd nfet_03v3 ad=8.4p pd=25.4u as=8.4p ps=25.4u w=12u l=0.6u
+X44 gnd net18 net16 vdd pfet_03v3 ad=26.1p pd=70.2u as=0.7p ps=3.4u w=1u l=20u
+X45 x vcn net3 gnd nfet_03v3 ad=10p pd=21u as=14p ps=41.44828u w=20u l=0.6u
+X46 vdd net9 net12 vdd pfet_03v3 ad=25.2p pd=73.86666u as=20.4p ps=49.6u w=36u l=0.6u
+X47 net5 net14 net9 gnd nfet_03v3 ad=17.4p pd=43.36u as=15p ps=31u w=30u l=0.6u
+X48 net6 y gnd gnd nfet_03v3 ad=13.05p pd=32.52u as=14.14286p ps=38.57143u w=22.5u l=0.6u
+X49 x vin- net7 vdd pfet_03v3 ad=12p pd=25u as=16.8p ps=49.29231u w=24u l=0.6u
+X50 y vcn net1 gnd nfet_03v3 ad=10p pd=21u as=14p ps=41.61539u w=20u l=0.6u
+X51 gnd net19 net17 vdd pfet_03v3 ad=26.1p pd=70.2u as=0.7p ps=3.4u w=1u l=20u
+X52 net5 vin+ net8 vdd pfet_03v3 ad=12p pd=25u as=16.8p ps=49.29231u w=24u l=0.6u
+X53 net9 net13 net10 vdd pfet_03v3 ad=9p pd=19u as=10.2p ps=24.8u w=18u l=0.6u
+X54 net4 vcn x gnd nfet_03v3 ad=14p pd=41.61539u as=10p ps=21u w=20u l=0.6u
+X55 net7 vin- x vdd pfet_03v3 ad=16.8p pd=49.29231u as=12p ps=25u w=24u l=0.6u
+X56 net3 z gnd gnd nfet_03v3 ad=12.6p pd=37.30344u as=11.31429p ps=30.85714u w=18u l=0.5u
+C0 net14 vdd 0.41314f
+C1 net19 vdd 8.95518f
+C2 vin- net13 0.05715f
+C3 vdd net17 1.17685f
+C4 net8 net13 0.0568f
+C5 vcp net5 0.12831f
+C6 net11 net18 0.05904f
+C7 net15 net16 0.07945f
+C8 net7 net6 4.19234f
+C9 vin+ net9 0.05732f
+C10 net10 vcn 0.1796f
+C11 net4 net3 0.40623f
+C12 vcp net15 0.06663f
+C13 net10 net9 4.76053f
+C14 vout x 1.1683f
+C15 vcp net16 0.06677f
+C16 vcp net23 3.88081f
+C17 net11 net21 0.43851f
+C18 net7 vdd 9.58102f
+C19 net11 net12 8.42423f
+C20 vcn z 4.21405f
+C21 vout net11 0.59378f
+C22 net14 net5 2.17095f
+C23 net18 net22 0.12901f
+C24 net24 net13 0.13326f
+C25 z net9 0.20095f
+C26 vin+ vin- 0.37574f
+C27 net8 vin+ 7.24752f
+C28 net10 vin- 0.11412f
+C29 net14 net15 0.01097f
+C30 net10 net8 0.19028f
+C31 net19 net15 0.071f
+C32 net14 net16 0.25324f
+C33 net21 net22 3.56126f
+C34 net12 net22 0.26233f
+C35 net14 net23 0.12759f
+C36 net15 net17 0.06887f
+C37 y vcn 2.50634f
+C38 net19 net16 0.071f
+C39 vout net22 0.91363f
+C40 net14 vcp 0.12711f
+C41 net16 net17 0.38958f
+C42 y net9 0.071f
+C43 z vin- 0.18224f
+C44 net19 vcp 0.12403f
+C45 z net8 0.36256f
+C46 vcp net17 0.12569f
+C47 net1 x 0.6059f
+C48 net11 net13 0.31436f
+C49 net24 net10 0.20166f
+C50 vcn net6 0.11872f
+C51 net18 net21 0.12992f
+C52 net18 net12 0.19453f
+C53 net7 net16 1.07958f
+C54 net6 net9 0.05732f
+C55 vout net18 0.06511f
+C56 y net8 2.71823f
+C57 net14 net19 0.35314f
+C58 net7 vcp 0.39087f
+C59 net14 net17 0.06887f
+C60 vcn vdd 2.28223f
+C61 net19 net17 5.33316f
+C62 vin+ x 0.11371f
+C63 net12 net21 0.39754f
+C64 vdd net9 5.2313f
+C65 net22 net13 0.12901f
+C66 net20 net6 3.85643f
+C67 vout net12 2.50537f
+C68 net6 vin- 0.74972f
+C69 net8 net6 0.19395f
+C70 net11 net10 0.60827f
+C71 net20 vdd 1.46017f
+C72 net7 net19 0.06876f
+C73 net1 net2 0.12261f
+C74 z x 0.15744f
+C75 net7 net17 0.19087f
+C76 vin- vdd 3.17538f
+C77 net8 vdd 9.5089f
+C78 net18 net13 0.36313f
+C79 vcn net5 0.05732f
+C80 net11 z 0.06105f
+C81 net5 net9 3.72895f
+C82 net10 net22 0.19529f
+C83 net24 net6 0.20885f
+C84 net4 vcn 4.52348f
+C85 vcn net15 0.85806f
+C86 y x 1.92575f
+C87 net21 net13 0.12992f
+C88 vcn net16 0.12581f
+C89 net12 net13 0.87628f
+C90 vout net13 0.05892f
+C91 net16 net9 0.06502f
+C92 vcn vcp 5.40021f
+C93 vcn net3 4.42429f
+C94 net24 vdd 3.18639f
+C95 vcp net9 0.26307f
+C96 net18 vin+ 0.49441f
+C97 net8 net5 3.38457f
+C98 net6 x 0.05899f
+C99 net10 net18 0.071f
+C100 z net2 0.79597f
+C101 net11 net6 0.32744f
+C102 y net22 0.0695f
+C103 net8 net16 0.06465f
+C104 net14 vcn 0.85795f
+C105 vout vin+ 0.27193f
+C106 x vdd 0.90486f
+C107 vcn net19 0.12226f
+C108 vcp vin- 0.04164f
+C109 net14 net9 0.91363f
+C110 net10 net21 0.19666f
+C111 net8 vcp 0.39144f
+C112 z net18 0.06723f
+C113 net10 net12 0.20243f
+C114 vcn net17 0.12357f
+C115 vout net10 0.11837f
+C116 net19 net9 0.06298f
+C117 net17 net9 0.06489f
+C118 y net2 2.72215f
+C119 net11 vdd 2.35995f
+C120 net6 net22 3.67659f
+C121 net24 net15 0.07267f
+C122 z net12 0.19223f
+C123 net24 net16 0.13337f
+C124 vout z 0.06157f
+C125 net24 net23 1.60411f
+C126 net7 vcn 0.38708f
+C127 net19 vin- 0.49441f
+C128 net24 vcp 0.27711f
+C129 net8 net19 2.02323f
+C130 net7 net9 0.38726f
+C131 vdd net22 0.84196f
+C132 net8 net17 1.04539f
+C133 net5 x 2.11986f
+C134 vin+ net13 0.05715f
+C135 net4 x 3.47162f
+C136 vout y 0.07118f
+C137 net18 net6 0.13205f
+C138 net10 net13 6.80098f
+C139 net14 net24 0.13933f
+C140 net7 vin- 6.98137f
+C141 net7 net8 1.09733f
+C142 net3 x 3.43596f
+C143 net24 net19 0.13315f
+C144 net18 vdd 8.95518f
+C145 net24 net17 0.13337f
+C146 net6 net21 0.17507f
+C147 net12 net6 0.19878f
+C148 z net13 0.06105f
+C149 net11 net23 0.82932f
+C150 vout net6 3.82406f
+C151 net5 net22 0.13982f
+C152 net11 vcp 0.234f
+C153 net21 vdd 0.84024f
+C154 net12 vdd 5.31416f
+C155 net10 vin+ 0.26318f
+C156 net15 net22 0.07054f
+C157 vout vdd 0.72023f
+C158 net16 net22 0.12912f
+C159 net23 net22 0.22302f
+C160 vcp net22 0.05892f
+C161 net4 net2 0.12261f
+C162 net14 net11 0.05904f
+C163 net1 y 1.71419f
+C164 vcn net9 2.1939f
+C165 z vin+ 0.17901f
+C166 net11 net19 0.34118f
+C167 net10 z 0.19223f
+C168 net3 net2 0.12261f
+C169 net6 net13 0.13205f
+C170 net18 net15 0.06887f
+C171 vcn net20 3.30413f
+C172 net18 net16 5.68626f
+C173 net7 x 2.82047f
+C174 net14 net22 0.20099f
+C175 vout net5 0.11843f
+C176 y vin+ 0.80611f
+C177 net18 vcp 0.06476f
+C178 net19 net22 0.1289f
+C179 vcn net8 0.38719f
+C180 vdd net13 1.61358f
+C181 net22 net17 0.12912f
+C182 vin- net9 0.05732f
+C183 net11 net7 0.0568f
+C184 net15 net21 0.071f
+C185 net8 net9 1.56199f
+C186 net21 net16 0.13003f
+C187 net12 net16 0.07054f
+C188 net23 net12 2.1166f
+C189 vcp net12 0.25398f
+C190 net6 vin+ 0.05732f
+C191 y z 2.09013f
+C192 net14 net18 0.06887f
+C193 net10 net6 0.19666f
+C194 net24 vcn 0.2085f
+C195 net8 vin- 3.25325f
+C196 net18 net19 0.74018f
+C197 net18 net17 0.52831f
+C198 vin+ vdd 3.15981f
+C199 net14 net21 0.27814f
+C200 net10 vdd 5.31416f
+C201 net14 net12 0.67772f
+C202 z net6 0.06111f
+C203 net19 net21 0.12981f
+C204 vout net14 0.06157f
+C205 net19 net12 0.19666f
+C206 net21 net17 0.13003f
+C207 vout net19 0.06723f
+C208 net12 net17 0.06887f
+C209 net16 net13 0.07267f
+C210 net1 net4 0.12261f
+C211 net7 net18 2.07195f
+C212 vcn x 1.77925f
+C213 z vdd 1.80682f
+C214 vcp net13 0.81477f
+C215 y net6 2.36846f
+C216 net11 vcn 0.1263f
+C217 net1 net3 0.12261f
+C218 net5 vin+ 0.75139f
+C219 net11 net9 0.05715f
+C220 net7 net12 0.12141f
+C221 vout net7 0.2908f
+C222 y vdd 0.90486f
+C223 x vin- 0.80943f
+C224 net14 net13 0.94256f
+C225 net8 x 0.23708f
+C226 vcn net22 0.17507f
+C227 vcp vin+ 0.52321f
+C228 z net5 0.05944f
+C229 net11 net8 0.0568f
+C230 net10 vcp 0.18172f
+C231 net6 vdd 1.67936f
+C232 vcn net2 3.52599f
+C233 net4 z 0.35022f
+C234 z net15 0.24941f
+C235 z net16 0.06889f
+C236 net20 net22 1.9211f
+C237 y net5 0.1247f
+C238 vcn net18 0.1245f
+C239 net3 z 1.25666f
+C240 net7 net13 0.24749f
+C241 net18 net9 0.0631f
+C242 net14 net10 0.19666f
+C243 net11 net24 1.08782f
+C244 y net4 1.01439f
+C245 net10 net19 0.071f
+C246 vcn net21 0.23295f
+C247 vcn net12 0.18879f
+C248 vout vcn 0.071f
+C249 net5 net6 1.20974f
+C250 net12 net9 1.94777f
+C251 net14 z 0.07419f
+C252 vout net9 0.13044f
+C253 net18 vin- 0.20539f
+C254 z net19 0.06758f
+C255 net24 net22 1.2709f
+C256 net18 net8 0.0631f
+C257 net7 vin+ 3.52369f
+C258 z net17 0.06878f
+C259 net15 net6 0.07312f
+C260 net5 vdd 0.90486f
+C261 net6 net16 0.13216f
+C262 net20 net21 1.89118f
+C263 net10 net7 0.19028f
+C264 vcp net6 0.12831f
+C265 net14 y 0.0695f
+C266 net15 vdd 0.41314f
+C267 net8 net12 0.12141f
+C268 vout vin- 0.57816f
+C269 net16 vdd 1.17857f
+C270 vout net8 0.29748f
+C271 net7 z 0.36803f
+C272 net24 net18 0.13361f
+C273 vcp vdd 0.30265f
+C274 vcn net13 0.22567f
+C275 net13 net9 0.58953f
+C276 net14 net6 0.33398f
+C277 net11 net22 0.19696f
+C278 net1 vcn 1.82404f
+C279 net19 net6 0.13193f
+C280 net2 x 0.36086f
+C281 net24 net12 0.44228f
+C282 net6 net17 0.13383f
+C283 vcp gnd 20.5046f
+C284 vcn gnd 58.13919f
+C285 vout gnd 15.8806f
+C286 vin- gnd 8.62224f
+C287 vin+ gnd 9.93508f
+C288 vdd gnd 2.64953p
+C289 net23 gnd 8.04577f
+C290 net1 gnd 9.24894f
+C291 net2 gnd 14.1859f
+C292 net3 gnd 16.29f
+C293 net4 gnd 16.6973f
+C294 net22 gnd 31.4999f
+C295 net21 gnd 37.5463f
+C296 net20 gnd 8.87188f
+C297 net14 gnd 25.5347f
+C298 net15 gnd 8.44047f
+C299 z gnd 42.8024f
+C300 net24 gnd 39.755f
+C301 net17 gnd 15.0607f
+C302 net16 gnd 19.3701f
+C303 net12 gnd 32.7066f
+C304 net11 gnd 34.5559f
+C305 net19 gnd 16.364f
+C306 net18 gnd 19.3555f
+C307 net10 gnd 26.0717f
+C308 net13 gnd 20.8372f
+C309 x gnd 43.1453f
+C310 net6 gnd 49.0667f
+C311 y gnd 44.3531f
+C312 net5 gnd 32.2864f
+C313 net8 gnd 24.0411f
+C314 net7 gnd 23.7661f
+C315 net9 gnd 24f
