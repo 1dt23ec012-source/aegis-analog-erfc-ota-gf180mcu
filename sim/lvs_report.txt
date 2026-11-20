@@ -1,0 +1,47 @@
+Netgen 1.5.323 compiled on Mon Aug  3 07:46:55 UTC 2026
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file exp1_connected.spice for exp1_connected.spice exp1_connected
+Reading netlist file exp1_schematic_clean.spice for exp1_schematic_clean.spice exp1
+
+Reading setup file setup.tcl
+
+Model nfet pin drain == source
+Model pfet pin drain == source
+Comparison output logged to file comp.out
+Logging to file "comp.out" enabled
+
+Contents of circuit 1:  Circuit: 'exp1_connected'
+Circuit exp1_connected contains 57 device instances.
+  Class: nfet                  instances:  28
+  Class: pfet                  instances:  29
+Circuit contains 34 nets.
+Contents of circuit 2:  Circuit: 'exp1'
+Circuit exp1 contains 37 device instances.
+  Class: nfet                  instances:  16
+  Class: pfet                  instances:  21
+Circuit contains 34 nets.
+
+Circuit was modified by parallel/series device merging.
+New circuit summary:
+
+Contents of circuit 1:  Circuit: 'exp1_connected'
+Circuit exp1_connected contains 33 device instances.
+  Class: nfet                  instances:  14
+  Class: pfet                  instances:  19
+Circuit contains 34 nets.
+Contents of circuit 2:  Circuit: 'exp1'
+Circuit exp1 contains 37 device instances.
+  Class: nfet                  instances:  16
+  Class: pfet                  instances:  21
+Circuit contains 34 nets.
+
+Circuit 1 contains 33 devices, Circuit 2 contains 37 devices. *** MISMATCH ***
+Circuit 1 contains 34 nets,    Circuit 2 contains 34 nets.
+
+
+Final result: 
+Top level cell failed pin matching.
+
+Logging to file "comp.out" disabled
+LVS Done.

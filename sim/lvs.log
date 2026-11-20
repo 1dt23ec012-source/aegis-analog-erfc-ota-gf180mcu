@@ -1,0 +1,190 @@
+
+Class exp1_connected (0):  Merged 24 parallel devices.
+Subcircuit summary:
+Circuit 1: exp1_connected                  |Circuit 2: exp1                            
+-------------------------------------------|-------------------------------------------
+pfet (29->19)                              |pfet (21) **Mismatch**                     
+nfet (28->14)                              |nfet (16) **Mismatch**                     
+Number of devices: 33 **Mismatch**         |Number of devices: 37 **Mismatch**         
+Number of nets: 34                         |Number of nets: 34                         
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: exp1_connected                  |Circuit 2: exp1                            
+
+---------------------------------------------------------------------------------------
+Net: gnd_uq4                               |Net: net4                                  
+  nfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: vdd_uq2                               |Net: net1                                  
+  pfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: gnd_uq6                               |Net: net3                                  
+  pfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: gnd_uq7                               |Net: net2                                  
+  pfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: vdd_uq5                               |Net: net10                                 
+  pfet/bulk = 19                           |  pfet/(drain|source) = 2                  
+                                           |                                           
+Net: vout                                  |Net: vout                                  
+  nfet/(drain|source) = 8                  |  nfet/(drain|source) = 1                  
+  pfet/(drain|source) = 8                  |  pfet/(drain|source) = 1                  
+  nfet/gate = 3                            |                                           
+  pfet/gate = 1                            |                                           
+                                           |                                           
+Net: gnd_uq2                               |Net: net9                                  
+  nfet/(drain|source) = 1                  |  nfet/(drain|source) = 1                  
+                                           |  pfet/(drain|source) = 1                  
+                                           |  pfet/gate = 2                            
+                                           |                                           
+Net: gnd_uq5                               |Net: net6                                  
+  nfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |  pfet/(drain|source) = 1                  
+                                           |  pfet/gate = 1                            
+                                           |                                           
+Net: gnd_uq3                               |Net: net8                                  
+  nfet/(drain|source) = 1                  |  pfet/(drain|source) = 4                  
+                                           |                                           
+Net: gnd_uq1                               |Net: net7                                  
+  nfet/(drain|source) = 1                  |  pfet/(drain|source) = 4                  
+                                           |                                           
+Net: gnd_uq0                               |Net: net5                                  
+  nfet/(drain|source) = 1                  |  nfet/(drain|source) = 2                  
+                                           |  pfet/(drain|source) = 1                  
+                                           |                                           
+Net: vin+                                  |Net: vin+                                  
+  pfet/gate = 2                            |  pfet/gate = 3                            
+                                           |                                           
+Net: vin-                                  |Net: vin-                                  
+  pfet/gate = 2                            |  pfet/gate = 3                            
+                                           |                                           
+Net: vdd_uq0                               |Net: net12                                 
+  pfet/(drain|source) = 1                  |  pfet/(drain|source) = 2                  
+                                           |  nfet/gate = 1                            
+                                           |                                           
+Net: y                                     |Net: y                                     
+  nfet/gate = 2                            |  nfet/gate = 2                            
+  nfet/(drain|source) = 8                  |  nfet/(drain|source) = 2                  
+  pfet/(drain|source) = 8                  |  pfet/(drain|source) = 1                  
+  pfet/gate = 2                            |                                           
+                                           |                                           
+Net: vdd_uq1                               |Net: x                                     
+  pfet/(drain|source) = 1                  |  nfet/gate = 2                            
+                                           |  nfet/(drain|source) = 2                  
+                                           |  pfet/(drain|source) = 1                  
+                                           |                                           
+Net: gnd                                   |Net: gnd                                   
+  nfet/bulk = 14                           |  nfet/bulk = 16                           
+                                           |  nfet/(drain|source) = 8                  
+                                           |  pfet/(drain|source) = 2                  
+                                           |                                           
+Net: vcn                                   |Net: vcn                                   
+  pfet/(drain|source) = 2                  |  pfet/(drain|source) = 2                  
+  nfet/gate = 2                            |  nfet/gate = 4                            
+  pfet/gate = 2                            |  pfet/gate = 2                            
+                                           |                                           
+Net: Vdd                                   |Net: vdd                                   
+  pfet/(drain|source) = 1                  |  pfet/(drain|source) = 6                  
+                                           |  pfet/bulk = 21                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: exp1_connected                  |Circuit 2: exp1                            
+
+---------------------------------------------------------------------------------------
+Instance: pfet:1000                        |Instance: pfet:13                          
+  (drain,source) = (20,20)                 |  (drain,source) = (4,3)                   
+  gate = 2                                 |  gate = 3                                 
+  bulk = 19                                |  bulk = 27                                
+                                           |                                           
+Instance: pfet:1016                        |Instance: pfet:14                          
+  (drain,source) = (20,20)                 |  (drain,source) = (5,4)                   
+  gate = 2                                 |  gate = 3                                 
+  bulk = 19                                |  bulk = 27                                
+                                           |                                           
+Instance: pfet:1019                        |Instance: pfet:15                          
+  (drain,source) = (20,20)                 |  (drain,source) = (4,4)                   
+  gate = 20                                |  gate = 3                                 
+  bulk = 19                                |  bulk = 27                                
+                                           |                                           
+Instance: pfet:1037                        |Instance: pfet:16                          
+  (drain,source) = (20,20)                 |  (drain,source) = (5,4)                   
+  gate = 20                                |  gate = 3                                 
+  bulk = 19                                |  bulk = 27                                
+                                           |                                           
+Instance: nfet:1001                        |Instance: pfet:21                          
+  (drain,source) = (20,1)                  |  (drain,source) = (27,2)                  
+  gate = 20                                |  gate = 4                                 
+  bulk = 14                                |  bulk = 27                                
+                                           |                                           
+Instance: nfet:1006                        |Instance: pfet:24                          
+  (drain,source) = (20,20)                 |  (drain,source) = (27,3)                  
+  gate = 20                                |  gate = 4                                 
+  bulk = 14                                |  bulk = 27                                
+                                           |                                           
+Instance: nfet:1009                        |Instance: nfet:1                           
+  (drain,source) = (20,20)                 |  (drain,source) = (26,2)                  
+  gate = 6                                 |  gate = 5                                 
+  bulk = 14                                |  bulk = 26                                
+                                           |                                           
+Instance: nfet:1010                        |Instance: nfet:4                           
+  (drain,source) = (20,20)                 |  (drain,source) = (26,2)                  
+  gate = 20                                |  gate = 5                                 
+  bulk = 14                                |  bulk = 26                                
+                                           |                                           
+Instance: nfet:1017                        |Instance: nfet:5                           
+  (drain,source) = (20,1)                  |  (drain,source) = (5,2)                   
+  gate = 20                                |  gate = 8                                 
+  bulk = 14                                |  bulk = 26                                
+                                           |                                           
+Instance: nfet:1026                        |Instance: nfet:6                           
+  (drain,source) = (20,20)                 |  (drain,source) = (5,2)                   
+  gate = 6                                 |  gate = 8                                 
+  bulk = 14                                |  bulk = 26                                
+                                           |                                           
+(no matching instance)                     |Instance: nfet:7                           
+                                           |  (drain,source) = (5,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 26                                
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet:8                           
+                                           |  (drain,source) = (5,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 26                                
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet:9                           
+                                           |  (drain,source) = (26,3)                  
+                                           |  gate = 5                                 
+                                           |  bulk = 26                                
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet:12                          
+                                           |  (drain,source) = (26,4)                  
+                                           |  gate = 5                                 
+                                           |  bulk = 26                                
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+
+Subcircuit pins:
+Circuit 1: exp1_connected                  |Circuit 2: exp1                            
+-------------------------------------------|-------------------------------------------
+vout                                       |(no pin, node is net4)                     
+vin-                                       |(no pin, node is net3)                     
+vin+                                       |(no pin, node is net2)                     
+vdd_uq5                                    |(no pin, node is net10)                    
+Vdd                                        |gnd **Mismatch**                           
+gnd                                        |vcn **Mismatch**                           
+vcn                                        |vdd **Mismatch**                           
+vcp                                        |vcp                                        
+(no pin, node is vcn)                      |vin-                                       
+(no pin, node is vcn)                      |vin+                                       
+(no pin, node is vcn)                      |vout                                       
+---------------------------------------------------------------------------------------
+Cell pin lists for exp1_connected and exp1 altered to match.
+Device classes exp1_connected and exp1 are equivalent.
+
+Final result: Top level cell failed pin matching.
